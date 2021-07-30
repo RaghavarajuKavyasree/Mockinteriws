@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/contact.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="contactus">
+           <h1 class="contactus__primary connect__primary">Mock Interviews</h1>
+            <div class="contactus__row">
+		
+                    
+                <div class="contactus__item">
+                    <hr  color="white">
+                    <h1 class="contactus__primary" style="font-size:15px;">
+                       All fields are required <span class="contactuss__primary-main"></span> 
+                    </h1>
+                    <div class="contactus__con-form">
+                        <form class="form">
+
+                            <div class="form__group" >
+                                <input id="name" type="text" class="form__input" placeholder=" Name"
+                                    required oninvalid="this.setCustomValidity('Please Enter Your Name')" oninput="setCustomValidity('')">
+                                <label class="form__label" for="name"> Name</label>
+                            </div>
+                            <div class="form__group">
+                                <input id="email" type="email" class="form__input" placeholder=" Email"
+                                    required oninvalid="this.setCustomValidity('Please Enter valid email')" oninput="setCustomValidity('')">
+                                <label class="form__label" for="email"> Email</label>
+                            </div>
+							<div class="form__group">
+                                <input id="name" type="text" class="form__input" placeholder=" Number"
+                                    required oninvalid="this.setCustomValidity('Please Enter Your Number')" oninput="setCustomValidity('')">
+                                <label class="form__label" for="name">Mobile Number</label>
+                            </div>
+                            <div class="form__group">
+                                <textarea class="form__input" type="text" id="msg" name="msg" placeholder="Description" required="" rows="3" spellcheck="false" ></textarea>
+                                <label class="form__label" for="msg">Description</label>
+                            </div>
+                            <div class="form__group">
+                                <div class="g-recaptcha brochure__form__captcha" data-sitekey="6LezbsYbAAAAAK2sXn2TqrPuNzDxl0CdPjXTfw16"></div>
+                            </div>
+                            <div class="form__button">
+                                
+                                    <button class="form__button-btn">SUBMIT</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                
+                <div class="contactus__item item2" >
+                    <hr>
+                    <h1 class="contactus__primary" style="font-size:45px;font-family:verdhana;">
+                        Practice for the Pressure 
+                    </h1>
+                    <div class="contactus__connectgroup">
+                        <h3 class="contactus__tertiary">
+                            Here is what you gain
+                        </h3>
+						
+                        <p class="contactus__connectgroup-text contactus__newsletter">
+                            Interview Confidence
+						</p>
+						<p class="contactus__connectgroup-text contactus__newsletter">
+                            Communication Skills
+						</p>
+						<p class="contactus__connectgroup-text contactus__newsletter">
+                            Reduce Stress and Anxiety
+						</p>
+						<p class="contactus__connectgroup-text contactus__newsletter">
+                           Constructive Feedback in a low stress environment
+						</p>
+						<p class="contactus__connectgroup-text contactus__newsletter">
+                           Interview Tips
+						</p>
+						<p class="contactus__connectgroup-text contactus__newsletter">
+                           Technical concepts to brush on
+						</p>
+						<p class="contactus__connectgroup-text contactus__newsletter">
+                          Body language
+						</p>
+						
+						
+                    </div>
+					
+
+                    
+                </div>
+            
+        </div>
+    </section>
+    <!--JavaScript link -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="./contact.js"></script>
+
+</body>
+
+</html>
